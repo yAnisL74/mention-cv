@@ -1,0 +1,4 @@
+# Bloque l'accès direct aux fichiers internes
+<FilesMatch "^(config|config\.example|bootstrap|prompt|anthropic)\.php$">
+    Require all denied
+</FilesMatch>
